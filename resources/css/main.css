@@ -1,0 +1,260 @@
+
+body  {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(250, 250, 250);
+  max-width: 985px;
+  margin: 0 auto;
+}
+
+p, h1, h2, h3, h4, h5, h6, span {
+  color: #333333;
+}
+
+.hide {
+  display: none;
+}
+
+.patrick  {
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 1.2px;
+}
+
+.margin_top {
+  margin-top: 10px;
+}
+
+/*to be removed */
+.lightgrey  {
+  background-color: rgb(240,240,240);
+}
+.silver {
+  background-color: rgb(192,192,192);
+}
+
+.darkgrey {
+  background-color: rgb(169,169,169);
+}
+
+.grey {
+  background-color: rgb(128,128,128);
+}
+
+.section_header {
+  background-color: skyblue;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.section_header p {
+  color: white;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+ol, ul, li  {
+  margin: 0;
+  padding: 3px;
+}
+
+.red_text {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.accent_color {
+  background-color: #f13c20;
+}
+
+.accent_text  {
+  color: #efe2ba;
+}
+
+.mobile_width {
+  min-width: 420px;
+}
+
+/* end of to be removed*/
+
+
+.border_radius  {
+  border-radius: 3px;
+}
+
+.box_shadow {
+  box-shadow: 7px 7px 4px lightgrey;
+}
+
+.icon_margin_right  {
+  margin-right: 5px;
+}
+
+.icon_margin_left {
+  margin-left: 8px;
+}
+
+.padding  {
+  padding: 5px;
+}
+
+.padding_top  {
+  padding-top: 8px;
+}
+
+.div_margin_bottom  {
+  margin-bottom: 50px;
+}
+
+header  {
+  height: 90px;
+}
+
+/*mobile header*/
+
+@media only screen and (max-width: 767px) {
+  header  img {
+    max-width: 110px;
+  }
+  header  span  {
+    font-size: 0.8rem;
+  }
+}
+
+/*section hero image */
+
+.hero_image {
+  background-image: url(../../resources/images/bathroom_jumbo.jpg);
+  height: 366px;
+  background-size: cover;
+}
+
+.hero_image i {
+  display: inline;
+}
+
+.stars  i {
+  color: gold;
+}
+
+.fb_color {
+  color: rgb(22, 127, 251)
+}
+
+.dean_image {
+  background-image: url(../../resources/images/repair-man.jpg);
+  background-size: cover;
+  height: 366px;
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/*section job box  */
+
+.job_box  {
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.job_box_2  img  {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.quote_box  {
+
+}
+
+.quote_row  {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.quote_box  p {
+  padding-right: 5px;
+}
+
+.quote_box  i {
+  padding-top: 5px;
+}
+
+.job_box_2  .col  {
+  padding: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile_reverse {
+      display: flex;
+      flex-direction: column-reverse;
+
+    }
+    .job_box_2  .col  {
+      min-height: 245px;
+    }
+}
+
+
+.contact  {
+  background-color: #efe2ba;
+  color: #f13c20;
+}
+
+.contact  i {
+  margin-top: 10px;
+}
+
+.contact  h5  {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact i  {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .contact_box h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .contact h5 {
+    font-size: 16px;
+    text-align: center;
+
+  }
+}
+
+
+footer  {
+  height: 140px;
+  background-color: lightgrey;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.temp_logo  {
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+}
+
+.copyright  {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  footer  {
+    display: flex;
+    align-items: center;
+  }
+  .temp_logo  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
